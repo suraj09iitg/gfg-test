@@ -14,4 +14,4 @@ com.pega.dsm.dnode.api.dataset.DataSet dataset = com.pega.dsm.dnode.api.dataset.
 .build(tools);
 com.pega.dsm.dnode.api.dataset.operation.Operation operation = dataset.getOperationByName(com.pega.dsm.dnode.impl.dataset.kafka.KafkaTruncateOperation.NAME);
 ((com.pega.dsm.dnode.impl.dataset.kafka.KafkaTruncateOperation)operation).truncate().await(tools);
-//test
+//test//
